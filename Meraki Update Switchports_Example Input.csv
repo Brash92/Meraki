@@ -1,0 +1,9 @@
+﻿port,type,vlan,name,allowedvlans
+1,trunk,1,Access Point,"1,2,3,4,5"
+2,trunk,1,Access Point,"1,2,3,4,5"
+5,access,85,Staff PC,
+6,access,85,Staff PC,
+9,access,85,Staff PC,
+11,access,72,Printer,
+13,access,44,Security,
+24,trunk,1,Uplink,"1,2,3,4,5,85,72,44"
